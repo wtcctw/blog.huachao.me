@@ -13,6 +13,8 @@ timezone: Asia/Shanghai
 avatar: /images/author.png
 #评论系统
 duoshuo_shortname: huachao
+#搜索引擎
+swiftype_key: ond2xV5-s2zhCSQebqSi
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
