@@ -2,9 +2,9 @@ title:  "slf4j基础"
 date: 2015-04-19
 updated: 2015-12-26
 categories: 
-- 后端
+- tool
 tags:
-- slf4j
+- tool
 - log
 ---
 

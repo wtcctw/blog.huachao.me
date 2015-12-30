@@ -1,12 +1,10 @@
 title:  "epoll"
-date: 2015-12-29
+date: 2015-12-28
 categories:
-- 后端
-tags:
-- epoll
 - network
-- socket
-- 异步
+tags:
+- network
+- epoll
 ---
 > NIO只是IO的一种，不要将其神话
 

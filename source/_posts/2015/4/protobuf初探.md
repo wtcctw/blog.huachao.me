@@ -2,9 +2,11 @@ title:  "Google protobuf 初探"
 date: 2015-04-26
 updated: 2015-12-26
 categories:
-- 后端
+- network
 tags:
+- network
 - rpc
+- serialization
 ---
 
 > protobuf 序列化、反序列化、RPC

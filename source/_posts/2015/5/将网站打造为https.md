@@ -2,11 +2,10 @@ title:  "将网站打造为https"
 date: 2015-05-05
 updated: 2015-12-26
 categories: 
-- 后端
+- tool
 tags:
+- tool
 - security
-- tls
-- ssl
 ---
 
 > 为什么需要https，以及如何迁移到https

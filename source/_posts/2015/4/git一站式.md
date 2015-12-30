@@ -1,7 +1,10 @@
 title:  "Git一站式"
 date: 2015-04-12
 updated: 2015-12-26
+categories:
+- tool
 tags:
+- tool
 - git
 ---
 

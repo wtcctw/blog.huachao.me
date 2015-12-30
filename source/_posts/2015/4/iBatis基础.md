@@ -2,7 +2,7 @@ title:  "iBatis基础"
 date: 2015-04-17
 updated: 2015-12-26
 categories: 
-- 后端
+- db
 tags:
 - db
 - iBatis

@@ -1,8 +1,10 @@
 title:  "用nginx做反向代理和https验证"
 date: 2015-12-29
+updated: 2015-12-29
 categories:
-- 后端
+- network
 tags:
+- network
 - nginx
 ---
 
@@ -36,6 +38,29 @@ server {
     }
 }
 ```
+### 关于反向代理时候的一些参数
+最近在`netstat -anp`查看nginx的反向代理连接的时候发现非常多的TIME_WAIT。TIME_WAIT这个TCP状态是在服务端主动关闭的时候会到达的一个状态，且这个时候需要等待一段时间内核才能回收socket。那是什么原因导致的呢。Google了一下，发现nginx 1.1以下版本在反向代理的时候不是用长连接的，也就是说用的HTTP1.0，`Connetion: Close`的HTTP头，所以导致了hexo在相应之后主动去close，结果出现了很多TIME_WAIT。将反向代理改为如下，看到所有相关的参数都注释掉了，因为我用的nginx是1.0，所以无法使用反向代理长连接的feature~~
+```bash
+upstream hexo {
+    server 127.0.0.1:4000;
+    #keepalive 10;
+}
+
+#proxy & ssl
+server {
+    listen 443 ssl;
+    server_name blog.huachao.me;
+    ssl on;
+    ssl_certificate /root/ssl.cert;
+    ssl_certificate_key /root/ssl.key;
+    location / {
+        proxy_pass http://hexo;
+        #proxy_http_version 1.1;
+        #proxy_set_header Connection "";
+    }
+}
+```
+
 ## nginx做https验证
 - 关于https所需要的证书，可以到[StartSSL](https://www.startssl.com/)上申请，原理部分请移步[将网站打造为https](https://blog.huachao.me/2015/5/将网站打造为https/)。
 - nginx的server模块配置443端口的监听，并且将证书，私钥信息也罗列完整

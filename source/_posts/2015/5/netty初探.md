@@ -2,11 +2,9 @@ title:  "netty初探"
 date: 2015-05-07
 updated: 2015-12-26
 categories:
-- 后端
+- network
 tags:
-- rpc
-- 异步
-- 多线程
+- network
 ---
 
 > netty, Java的node.js

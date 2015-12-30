@@ -2,9 +2,10 @@ title:  "MySQL事务"
 date: 2015-07-14
 updated: 2015-12-26
 categories:
-- 后端
+- db
 tags:
 - db
+- transaction
 ---
 > InnoDB的事务详解
 

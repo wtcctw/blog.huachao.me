@@ -2,7 +2,7 @@ title:  "Redis基础"
 date: 2015-06-10
 updated: 2015-12-26
 categories:
-- 后端
+- db
 tags:
 - redis
 - db
