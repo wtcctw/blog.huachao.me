@@ -5,7 +5,6 @@ categories:
 - db
 tags:
 - db
-- iBatis
 ---
 
 > iBatis只是一个模板，真正的内容全是数据库

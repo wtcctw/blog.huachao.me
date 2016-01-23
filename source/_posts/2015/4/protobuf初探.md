@@ -5,8 +5,7 @@ categories:
 - network
 tags:
 - network
-- rpc
-- serialization
+- RPC
 ---
 
 > protobuf 序列化、反序列化、RPC

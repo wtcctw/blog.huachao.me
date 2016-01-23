@@ -2,10 +2,10 @@ title: Spring基础小结
 date: 2015-04-15 17:19:00
 updated: 2015-12-25 17:19:00
 categories:
-- tool
+- 编程基础
 tags:
-- tool
 - spring
+- 编程基础
 ---
 
 > Spring IoC 就像串烧，把对象串起来。

@@ -2,8 +2,9 @@ title:  "Linux知识点小结"
 date: 2016-01-04
 updated: 2016-01-05
 categories:
-- linux
+- 编程基础
 tags:
+- 编程基础
 - linux
 ---
 > Linux一出，谁与争锋

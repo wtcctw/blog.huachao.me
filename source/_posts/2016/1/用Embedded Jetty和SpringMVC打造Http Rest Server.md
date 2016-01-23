@@ -6,7 +6,6 @@ categories:
 tags:
 - network
 - spring
-- jetty
 - web server
 ---
 

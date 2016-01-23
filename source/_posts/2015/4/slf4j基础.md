@@ -2,10 +2,9 @@ title:  "slf4j基础"
 date: 2015-04-19
 updated: 2015-12-26
 categories: 
-- tool
+- 编程基础
 tags:
-- tool
-- log
+- 编程基础
 ---
 
 > Java日志必备神器slf4j

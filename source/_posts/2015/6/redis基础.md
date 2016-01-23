@@ -2,10 +2,9 @@ title:  "Redis基础"
 date: 2015-06-10
 updated: 2015-12-26
 categories:
-- db
+- cache
 tags:
-- redis
-- db
+- cache
 ---
 
 > 凡是用memcached的场景，麻烦都用Redis代替
