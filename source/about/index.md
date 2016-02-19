@@ -48,6 +48,7 @@ date: 2015-12-26 00:15:22
 	- [TCP/IP,Java Socket简单分析](https://blog.huachao.me/2015/12/TCP:IP,Java%20Socket%E7%AE%80%E5%8D%95%E5%88%86%E6%9E%90/)
 	- [epoll](https://blog.huachao.me/2015/12/epoll/)
 - DB相关文章
+	- [分布式RDBMS](https://blog.huachao.me/2016/2/%E5%88%86%E5%B8%83%E5%BC%8FRDBMS/)
 	- [Java DB必知必会](https://blog.huachao.me/2016/2/Java%20DB%20%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A/)
 	- [MySQL事务](https://blog.huachao.me/2015/7/mysql%E4%BA%8B%E5%8A%A1/)
 - 工具相关文章
