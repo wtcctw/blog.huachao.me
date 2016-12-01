@@ -8,6 +8,8 @@ date: 2015-12-26 00:15:22
 - #### Email：[i@huachao.me](mailto:i@huachao.me)
 
 # 工作经历
+- ### 2016.6 ~ 至今 [阿里巴巴·互联网汽车]()
+	- YunOS·互联网汽车, **资深软件工程师**
 - ### 2014.5 ~ 至今 [大众点评](http://www.dianping.com)
 	- 家装事业部, **Engineering Lead**
 	- 结婚事业部, **Senior Software Engineer**
