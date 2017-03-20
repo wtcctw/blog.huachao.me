@@ -4,12 +4,12 @@ date: 2015-12-26 00:15:22
 # 个人信息
 - #### 姓名：华超
 - #### 硕士/中科院软件研究所
-- #### 工作年限：6年
+- #### 工作年限：7年
 - #### Email：[i@huachao.me](mailto:i@huachao.me)
 
 # 工作经历
 - ### 2016.6 ~ 至今 [阿里巴巴·互联网汽车]()
-	- YunOS·互联网汽车, **资深软件工程师**
+	- 互联网汽车, **技术专家**
 - ### 2014.5 ~ 至今 [大众点评](http://www.dianping.com)
 	- 家装事业部, **Engineering Lead**
 	- 结婚事业部, **Senior Software Engineer**
@@ -18,6 +18,11 @@ date: 2015-12-26 00:15:22
 	- China System Technology Lab, **Software Engineer**
 
 # 项目经验
+- ### 阿里巴巴互联网汽车大平台
+	- 中间件整合（网关、微服务、消息中心、配置中心等）
+	- 业务能力提升（内部工具开发、性能调优）
+	- 数据平台（大数据搜集和分析）
+
 - ### 通用Java后端开发
 	- 做过`上百个`各种类型的需求，涉及到：大众点评结婚家装频道的[前台](http://www.dianping.com/shanghai/home)、商户后台、运营后台、H5游戏活动页面、大众点评手机App的后端API
 	- 手机App的后端API `PV`约为100w/天；前台页面 `PV`约为50w/天；秒杀类H5游戏活动 `QPS`大于1k/s（说明：`QPS`主要依靠memcached和redis得到提升，一般memcached和redis的`QPS`大于10k/s，MySql的`QPS`也可以达到几千k的数量级，这里的`QPS`是指应用的`QPS`，包含了复杂的业务逻辑处理）。
